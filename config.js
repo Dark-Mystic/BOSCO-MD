@@ -7,11 +7,11 @@ function convertToBool(text, fault = 'true') {
 	DATABASE_URL = process.env.DATABASE_URL === undefined ? './bosco.db' : process.env.DATABASE_URL;
 	DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 	module.exports = {
-		SESSION_ID: process.env.SESSION_ID || "",
+		SESSION_ID: process.env.SESSION_ID || "dWN3WFl_BOSCO_5eVU=",
 		BLOCKCHAT: process.env.BLOCK_CHAT || "",
 		WORKTYPE: process.env.WORK_TYPE || "private",
 		HANDLERS: process.env.HANDLERS || ".",
-		SUDO: process.env.SUDO || "",
+		SUDO: process.env.SUDO || "923474187615",
 		SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
 		BRANCH: 'main',
                 DATABASE_URL: DATABASE_URL,
